@@ -2,6 +2,7 @@ from io import FileIO
 from cmp.lexer_h import HulkLexer
 from cmp.parser_h import HulkParser
 from cmp.ast_h import HulkPrintVisitor
+from cmp.code_gen import HulkCodeGenerator
 import os
 from cmp.sentactic_analyzer import TypeCollector
 from cmp.sentactic_analyzer import TypeBuilder

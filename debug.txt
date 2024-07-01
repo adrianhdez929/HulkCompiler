@@ -2206,6 +2206,42 @@ state 45
     base_exponent                  shift and go to state 63
     fully_typed_param              shift and go to state 64
 
+state 45
+
+    (143) var_use -> var_attr .
+    ASSIGN          reduce using rule 143 (var_use -> var_attr .)
+    DEST_ASSIGN     reduce using rule 143 (var_use -> var_attr .)
+    ESPACEDCONCAT   reduce using rule 143 (var_use -> var_attr .)
+    CONCAT          reduce using rule 143 (var_use -> var_attr .)
+    LBRACKET        reduce using rule 143 (var_use -> var_attr .)
+    MODULE          reduce using rule 143 (var_use -> var_attr .)
+    DIVIDE          reduce using rule 143 (var_use -> var_attr .)
+    MULTIPLY        reduce using rule 143 (var_use -> var_attr .)
+    ASTERPOWER      reduce using rule 143 (var_use -> var_attr .)
+    POWER           reduce using rule 143 (var_use -> var_attr .)
+    MINUS           reduce using rule 143 (var_use -> var_attr .)
+    PLUS            reduce using rule 143 (var_use -> var_attr .)
+    SEMICOLON       reduce using rule 143 (var_use -> var_attr .)
+    $end            reduce using rule 143 (var_use -> var_attr .)
+    RPAREN          reduce using rule 143 (var_use -> var_attr .)
+    RBRACE          reduce using rule 143 (var_use -> var_attr .)
+    OR              reduce using rule 143 (var_use -> var_attr .)
+    SINCETHAT       reduce using rule 143 (var_use -> var_attr .)
+    COMMA           reduce using rule 143 (var_use -> var_attr .)
+    RBRACKET        reduce using rule 143 (var_use -> var_attr .)
+    NOT_EQUAL       reduce using rule 143 (var_use -> var_attr .)
+    EQUAL           reduce using rule 143 (var_use -> var_attr .)
+    LESS_EQUAL      reduce using rule 143 (var_use -> var_attr .)
+    GREATER_EQUAL   reduce using rule 143 (var_use -> var_attr .)
+    LESS_THAN       reduce using rule 143 (var_use -> var_attr .)
+    GREATER_THAN    reduce using rule 143 (var_use -> var_attr .)
+    AS              reduce using rule 143 (var_use -> var_attr .)
+    IN              reduce using rule 143 (var_use -> var_attr .)
+    ELSE            reduce using rule 143 (var_use -> var_attr .)
+    ELIF            reduce using rule 143 (var_use -> var_attr .)
+    AND             reduce using rule 143 (var_use -> var_attr .)
+
+
 state 46
 
     (149) var_use -> var_attr .
